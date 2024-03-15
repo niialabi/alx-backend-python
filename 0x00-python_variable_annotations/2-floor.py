@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """ floor function module """
 
-from math import floor as floor
+from math import floor as fl
 
 
 def floor(n: float) -> int:
-    """
-    func which takes floor as argument and returns floor of n
-    """
-    return floor(n)
+    """ func: input floor as arg and returns floor of n """
+    return fl(n)
