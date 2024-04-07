@@ -23,6 +23,3 @@ class TestAccessNestedMap(unittest.TestCase):
     ):
         """ test access nested map function """
         self.assertEqual(access_nested_map(nested_map, path), expected)
-
-    def test_access_nested_map(self):
-        pass
